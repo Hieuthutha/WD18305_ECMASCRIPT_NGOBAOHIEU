@@ -1,0 +1,92 @@
+{
+    "categories": [
+      {
+        "id": 1,
+        "name": "Trái cây"
+      },
+      {
+        "id": 2,
+        "name": "Rau củ"
+      },
+      {
+        "id": 3,
+        "name": "Nước ép"
+      }
+    ],
+    "products": [
+      {
+        "id": 1,
+        "name": "Product 1",
+        "cate_id": 1,
+        "price": 50.000,
+        "detail": "Product 1 details",
+        "image": "product1.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Product 2",
+        "cate_id": 2,
+        "price": 100.000,
+        "detail": "Product 2 details",
+        "image": "product2.jpg"
+      },
+      {
+        "id": 3,
+        "name": "Product 3",
+        "cate_id": 1,
+        "price": 150.000,
+        "detail": "Product 3 details",
+        "image": "product3.jpg"
+      }
+    ],
+    "orders": [
+      {
+        "id": 1,
+        "customer_name": "Lại Phước Thanh",
+        "customer_address": "123 Main St",
+        "customer_email": "itsukashido2004@gmail.com",
+        "customer_phone_number": "123-456-7890",
+        "created_date": "2024-01-19",
+        "status": "Pending"
+      },
+      {
+        "id": 2,
+        "customer_name": "Lê Trọng Nhân",
+        "customer_address": "456 Oak St",
+        "customer_email": "nhan@gmail.com",
+        "customer_phone_number": "987-654-3210",
+        "created_date": "2024-01-20",
+        "status": "Shipped"
+      },
+      {
+        "id": 3,
+        "customer_name": "Hồ Nguyễn Nhật Ngân",
+        "customer_address": "789 Elm St",
+        "customer_email": "ngan@gmail.com",
+        "customer_phone_number": "555-123-4567",
+        "created_date": "2024-01-21",
+        "status": "Processing"
+      }
+    ],
+    "order_details": [
+      {
+        "order_id": 1,
+        "product_id": 1,
+        "quantity": 2,
+        "unit_price": 50.000
+      },
+      {
+        "order_id": 1,
+        "product_id": 2,
+        "quantity": 1,
+        "unit_price": 100.000
+      },
+      {
+        "order_id": 2,
+        "product_id": 3,
+        "quantity": 3,
+        "unit_price": 150.000
+      }
+    ]
+  }
+  
