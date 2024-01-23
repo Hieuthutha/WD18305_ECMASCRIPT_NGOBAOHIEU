@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng nhập</title>
+    <link rel="stylesheet" href="./css/dangnhap.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<style>
+    body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        img {
+            width: 50px;
+            height: auto;
+            position: absolute;
+            top: 10px;
+            left: 10px;
+        }
+</style>
+<body>
+    <section>
+
+        <div class="img-bg">
+            <img src="./img/bannerDoc.jpg" alt="Hình Ảnh Minh Họa">
+        </div>
+        
+        <div class="noi-dung">
+            <button onclick="goBack()">
+                <img src="./img/arrowback.jpg" alt="Quay trở lại">
+            </button>
+            
+            <script>
+                function goBack() {
+                    window.history.back();
+                }
+            </script>
+            <div class="form">
+                <h2>Trang Đăng Nhập</h2>
+                <form action="">
+                    <div class="input-form">
+                        <span>Tên Người Dùng</span>
+                        <input type="text" name="" required>
+                    </div>
+                    <div class="input-form">
+                        <span>Mật Khẩu</span>
+                        <input type="password" name="" required>
+                    </div>
+                    <div class="nho-dang-nhap">
+                        <label><input type="checkbox" name=""> Nhớ Đăng Nhập</label>
+                    </div>
+                    <div class="input-form">
+                        <input type="submit" value="Đăng Nhập">
+                    </div>
+                    <div class="input-form">
+                        <p>Bạn Chưa Có Tài Khoản? <a href="dangky.html">Đăng Ký</a></p>
+                    </div>
+                </form>
+
+    </section>
+</body>
+</html>
